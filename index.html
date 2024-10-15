@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <div class="wrapper">
+
+    <div class="game">
+      <div class="heading">
+        <h1>Numbers Game!</h1>
+        <p>Guess a number between 1 and 100</p>
+      </div>
+      <form id="guessForm" class="guessForm" novalidate>
+        <input type="number" inputmode="numeric" id="guess" min="1" max="100">
+        <button>Guess!</button>
+      </form>
+      <div id="output" class="output">
+        Enter a number to start the game
+      </div>
+    </div>
+
+    <ul class="guesses" id="guesses">
+      <!-- <li>25</li>
+      <li>75</li> -->
+
+    </ul>
+
+  </div>
+
+  <!-- <div class="toast">
+    Restarting game in 5
+  </div> -->
+
+  <script src="/script.js"></script>
+</body>
+</html>
